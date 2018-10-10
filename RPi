@@ -1,23 +1,4 @@
-// Starter Code
 
-git clone https://github.com/adafruit/Adafruit_Python_DHT.git
-cd Adafruit_Python_DHT
-
-sudo python setup.py install
-sudo apt-get update
-sudo apt-get install python-dev
-//sudo apt-get install python-pip
-//sudo pip install simplejson
-sudo python get-pip
-sudo pip install pyrebase
-sudo apt-get install python3-rpi.gpio
-< download files for DHT22 sensor at https://github.com/adafruit/Adafruit_Python_DHT >
-
-import RPi.GPIO as GPIOGPIO.setmode(GPIO.BCM # set board mode to Broadcom
-GPIO.setup(17, GPIO.OUT) # set up pin 17
-GPIO.setup(18, GPIO.OUT) # set up pin 18
-GPIO.output(17,1)        # turn on pin 17
-GPIO.output(18,1)        # turn on pin 18
 
 // Initiate Database 
 import time
@@ -35,10 +16,10 @@ temperature = round(temperature, 1)
 from firebase import firebase
 
 config = {
-//  "apiKey": "apiKey",
-// "authDomain": "projectId.firebaseapp.com",
-//  "databaseURL": "https://databaseName.firebaseio.com",
-//  "storageBucket": "projectId.appspot.com"
+  "apiKey": "apiKey",
+ "authDomain": "projectId.firebaseapp.com",
+  "databaseURL": "https://databaseName.firebaseio.com",
+  "storageBucket": "projectId.appspot.com"
 }
 
 firebase = pyrebase.initialize_app(config)
