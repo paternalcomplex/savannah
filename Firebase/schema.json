@@ -1,19 +1,26 @@
-{ "db":
-    {
-    "project":  {
-        "name": "projname",
-        "startdate": "00/00/00",
-        "enddate": "00/00/00",
-        "events":{
-            "title": "eventtitle",
-            "eventdate": "00/00/00",
-            "eventsymbol": "symbol.jpg",
-            "lastwatered": "00/00/00"
-        }
-    },
-    "environment": {
-        "temp": 1,
-        "humidity": 2
-                   }
-   }   
+{
+    "db": {
+        "environment": {
+            "temp": 1.0,
+            "humidity": 2.0,
+            "ph": 7.0,
+            "moisture": 5.0
+        },
+        "project": [
+            {
+                "name": "projname",
+                "startdate": "00/00/00",
+                "enddate": "00/00/00",
+                "lastwatered": "00/00/00",
+                "projdescrip": "",
+                "event": [
+                    {
+                        "title": "eventtitle",
+                        "description": "",
+                        "eventdate": "00/00/00"
+                    }
+                ]
+            }
+        ]
+    }
 }
