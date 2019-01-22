@@ -4,6 +4,7 @@
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
+/.idea/gradle.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
@@ -11,3 +12,5 @@
 /build
 /captures
 .externalNativeBuild
+.vcs.xml
+
