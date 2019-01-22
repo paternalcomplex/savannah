@@ -1,4 +1,0 @@
-#Mon Jan 21 22:23:18 EST 2019
-base.0=/home/conner/AndroidStudioProjects/Seedbomb/app/build/intermediates/transforms/dexMerger/debug/8
-path.0=classes.dex
-renamed.0=classes.dex
