@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "191259559279",
+    "firebase_url": "https://savannah-af796.firebaseio.com",
+    "project_id": "savannah-af796",
+    "storage_bucket": "savannah-af796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191259559279:android:f5524cd0817d951e",
+        "android_client_info": {
+          "package_name": "chill.savannah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191259559279-1m223brplmqirg5fnhpdu8aj07s8m733.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmJmjBRurc4SpB5JZTWa7NxIRI5jeCV_I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
